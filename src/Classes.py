@@ -7,14 +7,17 @@ from torch import nn
 from torch.utils.data import TensorDataset, DataLoader
 from copy import deepcopy
 
-from constants import *
+#from constants import *
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
+from src.constants import Default_hidden_layers, Default_activation, Default_learning_rate, Default_batch_size, Default_epochs, Default_valid_frac, Default_weight_decay
+
+
 class FullyConnectedNeuralNetwork:
 
-    def __init__(self, hidden_layers=Default_hidden_layers, activation=Default_activation, learning_rate=Default_learning_rate, batch_size=Default_batch_size, weight_decay=Default_weight_decay, epochs=Default_epochs, valid_frac=Default_valid_frac, random_state=Random_state):
+    def __init__(self, hidden_layers=Default_hidden_layers, activation=Default_activation, learning_rate=Default_learning_rate, batch_size=Default_batch_size, weight_decay=Default_weight_decay, epochs=Default_epochs, valid_frac=Default_valid_frac, random_state=int or None, default=None, verbose=False):
 
         self.hidden_layers = hidden_layers
         self.activation = activation
@@ -24,6 +27,7 @@ class FullyConnectedNeuralNetwork:
         self.epochs = epochs
         self.valid_frac = valid_frac
         self.random_state = random_state
+        self.verbose = verbose
 
         self.rng = np.random.default_rng(random_state)
 
@@ -35,7 +39,7 @@ class FullyConnectedNeuralNetwork:
         self.scaler_y = StandardScaler()
 
     def load_data(self):
-        self.df = pd.read_csv(os.path.join("provided_files", "dataset_cell_growth_7factor.csv"))
+        self.df = pd.read_csv(os.path.join("../provided_files", "dataset_cell_growth_7factor.csv"))
         self.features = self.df.columns[3:]
         self.targets = self.df.columns[:3]
         self.x = self.df.loc[:, self.features].to_numpy(dtype=np.float32)
