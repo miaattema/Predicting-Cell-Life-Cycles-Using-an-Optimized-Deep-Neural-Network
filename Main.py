@@ -16,7 +16,7 @@ np.random.seed(0)
 torch.manual_seed(0)
 
 # Load the dataset
-df = pd.read_csv(os.path.join("provided_files", "dataset_cell_growth_7factor.csv"))
+df = pd.read_csv(os.path.join("datasets", "dataset_cell_growth_7factor.csv"))
 
 # Define input features and target variables
 features = df.columns[3:]
@@ -37,11 +37,11 @@ param_grid = dict(
     hidden_layers=[
         (5,),
         (6, 5, 4),
-        (8, 16, 32, 16, 8, 4),
-    ],
+        (8, 16, 32, 16, 8, 4),],
     activation=["tanh", "relu"],
     learning_rate=[0.001, 0.01],
-)
+    batch_size=[64, 256],
+    weight_decay=[0.0, 0.01])
 
 # Track iterations for progress bar
 c_iter = 0
@@ -58,7 +58,6 @@ for hyperparameters in ParameterGrid(param_grid):
     # Initialize the model
     model = FullyConnectedNeuralNetwork(
         epochs=400,
-        batch_size=1024,
         verbose=False,
         random_state=0,
         **hyperparameters
@@ -92,3 +91,33 @@ for hyperparameters in ParameterGrid(param_grid):
 
 df_export = pd.DataFrame.from_records(records, columns=columns)
 df_export.to_csv(os.path.join("tables", "table_grid_search.csv"), index=False)
+
+df_summary = (
+    df_export.groupby(list(param_grid.keys()), as_index=False)["NRMSE"]
+    .mean()
+    .sort_values("NRMSE"))
+
+# Display the best hyperparameter combination
+print("\nBest hyperparameters:")
+print(df_summary.iloc[0])
+
+# Export ranked combinations
+df_summary.to_csv(
+    os.path.join("tables", "table_grid_search_summary.csv"),
+    index=False)
+
+# Calculate mean NRMSE across all three targets
+df_summary = (
+    df_export.groupby(list(param_grid.keys()), as_index=False)["NRMSE"]
+    .mean()
+    .sort_values("NRMSE"))
+
+# Display the best hyperparameter combination
+print("\nBest hyperparameters:")
+print(df_summary.iloc[0])
+
+# Export ranked hyperparameter combinations
+df_summary.to_csv(
+    os.path.join("tables", "table_grid_search_summary.csv"),
+    index=False)
+
