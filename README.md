@@ -30,7 +30,7 @@
 
 
 - You must also include a `README.md` file which has the following structure:
-    - **Predicting Cell Life Cycles using an Optimized Deep Neural Networrk**
+### Predicting Cell Life Cycles using an Optimized Deep Neural Network
 This project develops and evaluates a fully connected deep neural network to predict key bioprocess performance indicaotrs using experimental cell growth data. The model uses seven input variables: temperature, pH, glucose, glutamine, lactate, ammonia, and viable cell density (VCD) to predict specific growth rate, specific death rate, and specific production rate. Hyperparameter optimization and cross-validation are used to identify an effective network architecture and evaluate predictive performance. The optimized neural network is compared against polynomial regression to assess prediction accuracy and computational efficiency. The overall objective is to investigate the application of machine learning to bioprocess modelling and optimization.
       
     - **Highlights**
