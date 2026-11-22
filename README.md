@@ -33,18 +33,23 @@
 ### Predicting Cell Life Cycles using an Optimized Deep Neural Network
 This project develops and evaluates a fully connected deep neural network to predict key bioprocess performance indicaotrs using experimental cell growth data. The model uses seven input variables: temperature, pH, glucose, glutamine, lactate, ammonia, and viable cell density (VCD) to predict specific growth rate, specific death rate, and specific production rate. Hyperparameter optimization and cross-validation are used to identify an effective network architecture and evaluate predictive performance. The optimized neural network is compared against polynomial regression to assess prediction accuracy and computational efficiency. The overall objective is to investigate the application of machine learning to bioprocess modelling and optimization.
       
-    - **Highlights**
-        - Heading 2
-        - Include 3 - 5 bullet points in an unordered list.
-        - Begin each bullet point with an action verb.
-            - E.g., Analyzed, Built, Designed, Developed, Evaluated, Extracted, Identified, Optimized, etc.
-        - Consider what skills you would want a potential employer to know about.
-    - **Environment**
-        - Heading 2
-        - Include Python and all libraries used in the project, with version numbers, in an unordered list.
-        - List Python first, followed by the libraries in alphabetical order.
-        - Only include libraries that were actually used in the project. Do not include packages that are installed in
-          your environment but were not used.
+## Highlights
+- Developed a fully connected neural network to predict specific cell growth, death, and production rates from seven bioprocess variables. 
+- Optimized five neural network hyperparameters using a grid search of 48 configurations. 
+- Evaluated model performance using four-fold cross-validation and NRMSE. 
+- Investigated the influence of individual hyperparameters on prediction accuracy using three-fold cross-validation. 
+- Compared the optimized neural network against polynomial regression to assess predictive accuracy and computational efficiency.
+
+## Environment 
+- Python: 3.14.7
+- NumPy: 2.5.2
+- Pandas: 3.0.5 
+- Matplotlib: 3.11.0 
+- Scickit-learn: 1.9.0
+- Torch: 2.13.0
+
+
+    
     - **Code Design**
         - Heading 2
         - 500 - 1500 words

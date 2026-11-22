@@ -146,7 +146,7 @@ for parameter, values in sensitivity_parameters.items():
 
         df_sensitivity, df_sensitivity_summary, _ = model.cross_validate_model(x_train, y_train, targets=targets, n_splits=3)
 
-        for target, row in df_sensitivity_summary.iterrows():
+        for _, row in df_sensitivity_summary.iterrows():
             sensitivity_records.append({"Parameter": parameter, "Value": value, "Target": target, "Mean RMSE": row[("RMSE", "mean")], "Std RMSE": row[("RMSE", "std")], "Mean NRMSE": row[("NRMSE", "mean")], "Std NRMSE": row[("NRMSE", "std")]})
 
 df_sensitivity_export = pd.DataFrame(sensitivity_records)
