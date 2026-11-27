@@ -11,6 +11,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(5,)",tanh,0.01,64,0.01,Specific Growth Rate [d^-1],0.6467530329786373,0.04268570017659006
 "(5,)",tanh,0.01,64,0.01,Specific Death Rate [d^-1],0.3142813533594957,0.0034570948869544526
 "(5,)",tanh,0.01,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.6623707983339001,3.5589182994480453
+"(5,)",tanh,0.1,64,0.0,Specific Growth Rate [d^-1],0.5456682304676435,0.03601410321086447
+"(5,)",tanh,0.1,64,0.0,Specific Death Rate [d^-1],0.37055510958777266,0.004076106205465499
+"(5,)",tanh,0.1,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.5941630237552493,3.1924379266369547
+"(5,)",tanh,0.1,64,0.01,Specific Growth Rate [d^-1],0.5426438531271238,0.03581449430639017
+"(5,)",tanh,0.1,64,0.01,Specific Death Rate [d^-1],0.3712957211247497,0.004084252932372246
+"(5,)",tanh,0.1,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.5877474904301735,3.1579672660813225
 "(6, 5, 4)",tanh,0.001,64,0.0,Specific Growth Rate [d^-1],0.41983018631652297,0.02770879229689052
 "(6, 5, 4)",tanh,0.001,64,0.0,Specific Death Rate [d^-1],0.2975407064048878,0.0032729477704537655
 "(6, 5, 4)",tanh,0.001,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.4681895195468514,2.515582288525233
@@ -23,6 +29,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(6, 5, 4)",tanh,0.01,64,0.01,Specific Growth Rate [d^-1],0.4194469327888152,0.027683497564061802
 "(6, 5, 4)",tanh,0.01,64,0.01,Specific Death Rate [d^-1],0.30395766308548466,0.003343534293940331
 "(6, 5, 4)",tanh,0.01,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.46379180671455383,2.491953377477298
+"(6, 5, 4)",tanh,0.1,64,0.0,Specific Growth Rate [d^-1],0.5337920748044487,0.035230276937093616
+"(6, 5, 4)",tanh,0.1,64,0.0,Specific Death Rate [d^-1],0.40572112579971636,0.00446293238379688
+"(6, 5, 4)",tanh,0.1,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.550475774613704,2.957706336999432
+"(6, 5, 4)",tanh,0.1,64,0.01,Specific Growth Rate [d^-1],0.49134078971420975,0.032428492121137846
+"(6, 5, 4)",tanh,0.1,64,0.01,Specific Death Rate [d^-1],0.3455072106924848,0.0038005793176173323
+"(6, 5, 4)",tanh,0.1,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.5185342583582371,2.786084570158808
 "(8, 16, 32, 16, 8, 4)",tanh,0.001,64,0.0,Specific Growth Rate [d^-1],0.39597511693258164,0.026134357717550388
 "(8, 16, 32, 16, 8, 4)",tanh,0.001,64,0.0,Specific Death Rate [d^-1],0.29510101606812195,0.003246111176749341
 "(8, 16, 32, 16, 8, 4)",tanh,0.001,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.452910680333662,2.433489085432766
@@ -35,6 +47,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(8, 16, 32, 16, 8, 4)",tanh,0.01,64,0.01,Specific Growth Rate [d^-1],0.40589468499538983,0.026789049209695732
 "(8, 16, 32, 16, 8, 4)",tanh,0.01,64,0.01,Specific Death Rate [d^-1],0.30571787467629813,0.003362896621439279
 "(8, 16, 32, 16, 8, 4)",tanh,0.01,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.46224594306965794,2.483647452113272
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,64,0.0,Specific Growth Rate [d^-1],0.7624004428724362,0.0503184292295808
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,64,0.0,Specific Death Rate [d^-1],0.5651662545611756,0.006216828800172931
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.7588701134403217,4.077409119514849
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,64,0.01,Specific Growth Rate [d^-1],0.74534569091163,0.04919281560016758
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,64,0.01,Specific Death Rate [d^-1],0.4645047738416761,0.005109552512258437
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.7415385909319665,3.984286849077456
 "(5,)",tanh,0.001,256,0.0,Specific Growth Rate [d^-1],0.653696803508884,0.04314398903158635
 "(5,)",tanh,0.001,256,0.0,Specific Death Rate [d^-1],0.345093901503712,0.003796032916540832
 "(5,)",tanh,0.001,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.660461763553029,3.5486610555704248
@@ -47,6 +65,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(5,)",tanh,0.01,256,0.01,Specific Growth Rate [d^-1],0.6430750214999881,0.04244295141899922
 "(5,)",tanh,0.01,256,0.01,Specific Death Rate [d^-1],0.3120240587535,0.0034322646462884997
 "(5,)",tanh,0.01,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.6577494823087525,3.5340879684449273
+"(5,)",tanh,0.1,256,0.0,Specific Growth Rate [d^-1],0.5820977936718377,0.03841845438234129
+"(5,)",tanh,0.1,256,0.0,Specific Death Rate [d^-1],0.346044965105544,0.003806494616160984
+"(5,)",tanh,0.1,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.602113016516935,3.235153237745492
+"(5,)",tanh,0.1,256,0.01,Specific Growth Rate [d^-1],0.5297585906651887,0.034964066983902455
+"(5,)",tanh,0.1,256,0.01,Specific Death Rate [d^-1],0.3628806030276393,0.003991686633304032
+"(5,)",tanh,0.1,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.5602241634788836,3.0100844303720415
 "(6, 5, 4)",tanh,0.001,256,0.0,Specific Growth Rate [d^-1],0.4173889958952516,0.027547673729086605
 "(6, 5, 4)",tanh,0.001,256,0.0,Specific Death Rate [d^-1],0.3036154635706768,0.003339770099277445
 "(6, 5, 4)",tanh,0.001,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.4618704933888955,2.481630160978536
@@ -59,6 +83,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(6, 5, 4)",tanh,0.01,256,0.01,Specific Growth Rate [d^-1],0.41449945690620543,0.02735696415580956
 "(6, 5, 4)",tanh,0.01,256,0.01,Specific Death Rate [d^-1],0.30379542116344976,0.003341749632797947
 "(6, 5, 4)",tanh,0.01,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.4593065579957965,2.4678541361114146
+"(6, 5, 4)",tanh,0.1,256,0.0,Specific Growth Rate [d^-1],0.4693594796057094,0.03097772565397682
+"(6, 5, 4)",tanh,0.1,256,0.0,Specific Death Rate [d^-1],0.37141585230959984,0.004085574375405598
+"(6, 5, 4)",tanh,0.1,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.4907726092434702,2.6369212294651656
+"(6, 5, 4)",tanh,0.1,256,0.01,Specific Growth Rate [d^-1],0.46375537574120757,0.0306078547989197
+"(6, 5, 4)",tanh,0.1,256,0.01,Specific Death Rate [d^-1],0.3626858432430829,0.003989544275673912
+"(6, 5, 4)",tanh,0.1,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.49067246885594323,2.636383175162983
 "(8, 16, 32, 16, 8, 4)",tanh,0.001,256,0.0,Specific Growth Rate [d^-1],0.403682725727572,0.026643059898019756
 "(8, 16, 32, 16, 8, 4)",tanh,0.001,256,0.0,Specific Death Rate [d^-1],0.2935923496025433,0.0032295158456279766
 "(8, 16, 32, 16, 8, 4)",tanh,0.001,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.45556237061677013,2.447736617323906
@@ -71,6 +101,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(8, 16, 32, 16, 8, 4)",tanh,0.01,256,0.01,Specific Growth Rate [d^-1],0.39588951693049207,0.02612870811741248
 "(8, 16, 32, 16, 8, 4)",tanh,0.01,256,0.01,Specific Death Rate [d^-1],0.2985433016775217,0.0032839763184527382
 "(8, 16, 32, 16, 8, 4)",tanh,0.01,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.4583427823322601,2.462675769471234
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,256,0.0,Specific Growth Rate [d^-1],0.7319002512277817,0.04830541658103359
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,256,0.0,Specific Death Rate [d^-1],0.5362515293890758,0.005898766823279834
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.7308336764702862,3.926769343674848
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,256,0.01,Specific Growth Rate [d^-1],0.7026474255117078,0.046374730083772714
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,256,0.01,Specific Death Rate [d^-1],0.46007917366620477,0.005060870910328252
+"(8, 16, 32, 16, 8, 4)",tanh,0.1,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.705988020141665,3.793273632221166
 "(5,)",relu,0.001,64,0.0,Specific Growth Rate [d^-1],0.6987105477576866,0.04611489615200732
 "(5,)",relu,0.001,64,0.0,Specific Death Rate [d^-1],0.3041501189817603,0.003345651308799363
 "(5,)",relu,0.001,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.7013569539468744,3.768390913556556
@@ -83,6 +119,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(5,)",relu,0.01,64,0.01,Specific Growth Rate [d^-1],0.6976294004076015,0.046043540426901695
 "(5,)",relu,0.01,64,0.01,Specific Death Rate [d^-1],0.305790152403079,0.003363691676433869
 "(5,)",relu,0.01,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.7016142017071916,3.7697731057727406
+"(5,)",relu,0.1,64,0.0,Specific Growth Rate [d^-1],0.6494892793226701,0.04286629243529623
+"(5,)",relu,0.1,64,0.0,Specific Death Rate [d^-1],0.37649595839269434,0.004141455542319638
+"(5,)",relu,0.1,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.6440773126222118,3.460627400719144
+"(5,)",relu,0.1,64,0.01,Specific Growth Rate [d^-1],0.6040205680399113,0.03986535749063415
+"(5,)",relu,0.1,64,0.01,Specific Death Rate [d^-1],0.3614356630810822,0.003975792293891904
+"(5,)",relu,0.1,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.6238255171449426,3.3518145036197766
 "(6, 5, 4)",relu,0.001,64,0.0,Specific Growth Rate [d^-1],0.46204774198722975,0.030495150971157164
 "(6, 5, 4)",relu,0.001,64,0.0,Specific Death Rate [d^-1],0.34242334082317233,0.003766656749054895
 "(6, 5, 4)",relu,0.001,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.4857296337454,2.6098253221140344
@@ -95,6 +137,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(6, 5, 4)",relu,0.01,64,0.01,Specific Growth Rate [d^-1],0.5535797717370268,0.03653626493464377
 "(6, 5, 4)",relu,0.01,64,0.01,Specific Death Rate [d^-1],0.3177380841542813,0.0034951189256970942
 "(6, 5, 4)",relu,0.01,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.5677756850656497,3.050658755857736
+"(6, 5, 4)",relu,0.1,64,0.0,Specific Growth Rate [d^-1],0.5784912764135588,0.03818042424329488
+"(6, 5, 4)",relu,0.1,64,0.0,Specific Death Rate [d^-1],0.46055182562911473,0.005066070081920262
+"(6, 5, 4)",relu,0.1,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.6218446367365775,3.3411712331856314
+"(6, 5, 4)",relu,0.1,64,0.01,Specific Growth Rate [d^-1],0.533687546758243,0.03522337808604404
+"(6, 5, 4)",relu,0.1,64,0.01,Specific Death Rate [d^-1],0.4920789571067262,0.005412868528173988
+"(6, 5, 4)",relu,0.1,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.5854585927082153,3.145669018621241
 "(8, 16, 32, 16, 8, 4)",relu,0.001,64,0.0,Specific Growth Rate [d^-1],0.41953057931031384,0.027689018234480715
 "(8, 16, 32, 16, 8, 4)",relu,0.001,64,0.0,Specific Death Rate [d^-1],0.2954473988031584,0.003249921386834742
 "(8, 16, 32, 16, 8, 4)",relu,0.001,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.47363795196501257,2.5448567159080127
@@ -107,6 +155,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(8, 16, 32, 16, 8, 4)",relu,0.01,64,0.01,Specific Growth Rate [d^-1],0.4215911492027085,0.027825015847378762
 "(8, 16, 32, 16, 8, 4)",relu,0.01,64,0.01,Specific Death Rate [d^-1],0.30793226064104334,0.0033872548670514763
 "(8, 16, 32, 16, 8, 4)",relu,0.01,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.4714885289947165,2.5333078662886117
+"(8, 16, 32, 16, 8, 4)",relu,0.1,64,0.0,Specific Growth Rate [d^-1],0.528066642160635,0.034852398382601915
+"(8, 16, 32, 16, 8, 4)",relu,0.1,64,0.0,Specific Death Rate [d^-1],0.42000366392452126,0.004620040303169734
+"(8, 16, 32, 16, 8, 4)",relu,0.1,64,0.0,Specific Production Rate [pg cell^-1 d^-1],0.5514037318335091,2.9626922511414446
+"(8, 16, 32, 16, 8, 4)",relu,0.1,64,0.01,Specific Growth Rate [d^-1],0.5180077707897025,0.034188512872120366
+"(8, 16, 32, 16, 8, 4)",relu,0.1,64,0.01,Specific Death Rate [d^-1],0.4095996216742914,0.004505595838417206
+"(8, 16, 32, 16, 8, 4)",relu,0.1,64,0.01,Specific Production Rate [pg cell^-1 d^-1],0.5508541338005376,2.9597392609102884
 "(5,)",relu,0.001,256,0.0,Specific Growth Rate [d^-1],0.6980379767078164,0.046070506462715884
 "(5,)",relu,0.001,256,0.0,Specific Death Rate [d^-1],0.3042124530286476,0.003346336983315123
 "(5,)",relu,0.001,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.7024644387167217,3.774341429224946
@@ -119,6 +173,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(5,)",relu,0.01,256,0.01,Specific Growth Rate [d^-1],0.6612976935708131,0.04364564777567367
 "(5,)",relu,0.01,256,0.01,Specific Death Rate [d^-1],0.31580618942311406,0.0034738680836542547
 "(5,)",relu,0.01,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.6700588462894244,3.600226181113077
+"(5,)",relu,0.1,256,0.0,Specific Growth Rate [d^-1],0.592002160271093,0.03907214257789214
+"(5,)",relu,0.1,256,0.0,Specific Death Rate [d^-1],0.3524064139746643,0.0038764705537213074
+"(5,)",relu,0.1,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.6105441110879014,3.2804535088752944
+"(5,)",relu,0.1,256,0.01,Specific Growth Rate [d^-1],0.5941188565259243,0.039211844530711006
+"(5,)",relu,0.1,256,0.01,Specific Death Rate [d^-1],0.35156091658018623,0.0038671700823820483
+"(5,)",relu,0.1,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.6132529442912127,3.295008069676686
 "(6, 5, 4)",relu,0.001,256,0.0,Specific Growth Rate [d^-1],0.4769844827169095,0.03148097585931603
 "(6, 5, 4)",relu,0.001,256,0.0,Specific Death Rate [d^-1],0.34250654339907627,0.0037675719773898387
 "(6, 5, 4)",relu,0.001,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.506079201619903,2.7191635503037395
@@ -131,6 +191,12 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(6, 5, 4)",relu,0.01,256,0.01,Specific Growth Rate [d^-1],0.49470700647161664,0.0326506624271267
 "(6, 5, 4)",relu,0.01,256,0.01,Specific Death Rate [d^-1],0.5003156683513853,0.005503472351865238
 "(6, 5, 4)",relu,0.01,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.5458693835539704,2.932956197835483
+"(6, 5, 4)",relu,0.1,256,0.0,Specific Growth Rate [d^-1],0.48227418822642437,0.03183009642294401
+"(6, 5, 4)",relu,0.1,256,0.0,Specific Death Rate [d^-1],0.5040398847314413,0.005544438732045855
+"(6, 5, 4)",relu,0.1,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.5475923873454599,2.9422138972071563
+"(6, 5, 4)",relu,0.1,256,0.01,Specific Growth Rate [d^-1],0.5211036495448308,0.034392840869958835
+"(6, 5, 4)",relu,0.1,256,0.01,Specific Death Rate [d^-1],0.5141460804204783,0.005655606884625261
+"(6, 5, 4)",relu,0.1,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.5550182534388022,2.9821130757266845
 "(8, 16, 32, 16, 8, 4)",relu,0.001,256,0.0,Specific Growth Rate [d^-1],0.42031279170179414,0.027740644252318414
 "(8, 16, 32, 16, 8, 4)",relu,0.001,256,0.0,Specific Death Rate [d^-1],0.2959988044027189,0.003255986848429908
 "(8, 16, 32, 16, 8, 4)",relu,0.001,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.46948977274968706,2.5225685489840686
@@ -143,3 +209,9 @@ hidden_layers,activation,learning_rate,batch_size,weight_decay,target,NRMSE,RMSE
 "(8, 16, 32, 16, 8, 4)",relu,0.01,256,0.01,Specific Growth Rate [d^-1],0.40126382709533803,0.026483412588292312
 "(8, 16, 32, 16, 8, 4)",relu,0.01,256,0.01,Specific Death Rate [d^-1],0.29957613904748936,0.0032953375295223827
 "(8, 16, 32, 16, 8, 4)",relu,0.01,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.4555637605812587,2.447744085603103
+"(8, 16, 32, 16, 8, 4)",relu,0.1,256,0.0,Specific Growth Rate [d^-1],0.4978396693137067,0.032857418174704646
+"(8, 16, 32, 16, 8, 4)",relu,0.1,256,0.0,Specific Death Rate [d^-1],0.4303206108453284,0.004733526719298612
+"(8, 16, 32, 16, 8, 4)",relu,0.1,256,0.0,Specific Production Rate [pg cell^-1 d^-1],0.49664986263529026,2.6684997119394147
+"(8, 16, 32, 16, 8, 4)",relu,0.1,256,0.01,Specific Growth Rate [d^-1],0.4821291475098606,0.0318205237356508
+"(8, 16, 32, 16, 8, 4)",relu,0.1,256,0.01,Specific Death Rate [d^-1],0.4067943316559857,0.0044747376482158424
+"(8, 16, 32, 16, 8, 4)",relu,0.1,256,0.01,Specific Production Rate [pg cell^-1 d^-1],0.506390004551715,2.7208334944563646

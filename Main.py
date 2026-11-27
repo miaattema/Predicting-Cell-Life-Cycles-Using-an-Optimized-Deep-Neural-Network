@@ -44,7 +44,7 @@ param_grid = dict(
         (6, 5, 4),
         (8, 16, 32, 16, 8, 4),],
     activation=["tanh", "relu"],
-    learning_rate=[0.001, 0.01],
+    learning_rate=[0.001, 0.01, 0.1],
     batch_size=[64, 256],
     weight_decay=[0.0, 0.01])
 
@@ -102,6 +102,7 @@ print(optimal_params)
 df_summary.to_csv(os.path.join("tables", "table_grid_search_summary.csv"), index=False)
 
 # Perform four-fold cross-validation using the optimal hyperparameters
+
 model_cv = FullyConnectedNeuralNetwork(epochs=400, verbose=False, random_state=0, **optimal_params)
 
 df_cv, df_cv_summary, learning_curves = model_cv.cross_validate_model(x_train, y_train, targets=targets, n_splits=4)
