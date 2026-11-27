@@ -101,7 +101,7 @@ The final set of optimal hyperparameters was chosen as it provided the lowest no
 
 <img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/c7861cee-8ec7-43da-af13-ef6060c03cfc" />
 
-    #### Figure 1: Training and validation loss over 400 epochs for each of the four folds during 4-fold cross-validation of the optimized neural network.
+#### Figure 1: Training and validation loss over 400 epochs for each of the four folds during 4-fold cross-validation of the optimized neural network.
 
 - As seen, the loss converges after approximately 100 epochs for each cross-validation fold. Thus, we can conclude that the model had sufficient time to converge across the 400 epoch specification, and increasing this number any further would be unlikely to provide any significant benefit. 
 
